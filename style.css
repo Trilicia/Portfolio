@@ -95,7 +95,7 @@ html {
 /* LADO DIREITO */
 .hero-right {
   flex: 1;
-  background-color: #f5e6e8;
+  background-color: #0f0f0f;
   display: flex;
   justify-content: center;
   align-items: center;
