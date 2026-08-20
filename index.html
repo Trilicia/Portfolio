@@ -1,309 +1,417 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio - Trilicia Gomes</title>
+    <meta name="description" content="Portfólio de Trilicia Gomes — Análise de Dados e Gestão de Projetos em Dados.">
+    <title>Trilicia Gomes | Dados & Gestão de Projetos</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
 </head>
-
 <body>
 
-    <nav class="navbar"><!---Seção de navegação do site-->
-        <ul>
-            <li><a href="#sobre">Sobre mim</a></li>
-            <li><a href="#projetos">Projetos</a></li>
-            <li><a href="#contatos">Contatos</a></li>
-            <li><a href="https://www.linkedin.com/in/trilicia-gomes-8606451a7/" target="_blank">Linkedin</a></li>
-
-
-        </ul>
+    <nav class="navbar">
+        <div class="nav-content">
+            <a class="brand" href="#inicio">TG</a>
+            <ul>
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contatos">Contato</a></li>
+                <li><a href="https://github.com/Trilicia" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/trilicia-gomes-8606451a7/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+            </ul>
+        </div>
     </nav>
-    <header class="hero">
 
+    <header id="inicio" class="hero">
         <div class="hero-left">
-            <h1> Trilicia Gomes</h1>
-            <h2> Data Analyst</h2>
-            <p> Data-driven by nature</p>
+            <p class="eyebrow">DADOS • NEGÓCIO • GESTÃO</p>
+            <h1>Trilicia Gomes</h1>
+            <h2>Análise de Dados & Gestão de Projetos em Dados</h2>
+
+            <p class="hero-text">
+                Transformo dados, indicadores e processos em informações que apoiam decisões,
+                melhoria contínua e geração de valor para o negócio.
+            </p>
 
             <div class="buttons">
-                <a href="#projetos"><button>Ver Projetos</button></a>
-                <a href="#contatos"><button class="outline">Contato</button></a>
+                <a class="btn" href="#projetos">Ver projetos</a>
+                <a class="btn outline" href="#contatos">Contato</a>
+                <a class="btn ghost" href="https://github.com/Trilicia" target="_blank" rel="noopener noreferrer">
+                    GitHub
+                </a>
             </div>
         </div>
+
         <div class="hero-right">
-            <section id="sobre-mim">
-                <h2> Sobre mim</h2>
-                <img src="foto.perfil.jpg" alt="Imagem de foto de perfil" title="Imagem de Perfil">
-            </section>
+            <img src="foto.perfil.jpg" alt="Foto de perfil de Trilicia Gomes" title="Trilicia Gomes">
         </div>
     </header>
-    <div class="container">
-        <aside id="aside" class="aside">
-            <p>“Recomeçar não é partir do zero, é avançar com experiência." Minha transição para a área de dados une
-                rigor científico, pensamento analítico e a busca constante por transformar dados em decisões.</p>
-        </aside>
-        <article>
-            <section id="sobre" class="sobre">
-                <h2>Sobre mim</h2>
-                <p>
-                    Olá! Sou Trilicia Gomes, farmacêutica bioquímica, com doutorado em Ciências dos Alimentos pela UFSC,
-                    e atualmente em transição para a área de Dados.
-                </p>
-                <p>
-                    Minha trajetória sempre foi guiada por dados. Desde a pesquisa científica, explorando hipóteses e
-                    analisando resultados experimentais, até a indústria, onde atuei com gestão de processos,
-                    indicadores de
-                    desempenho (KPIs) e tomada de decisão orientada por dados.
-                </p>
-                <p>Ao longo de mais de 10 anos, desenvolvi uma base sólida em análise, interpretação e comunicação de
-                    dados,
-                    sempre conectando resultados técnicos com impacto no negócio.
 
-                </p>
-                <p>Hoje, estou direcionando essa experiência para o ecossistema de dados, aprofundando minhas
-                    habilidades em
-                    Excel, Power BI e SQL, com foco em análise exploratória, visualização e geração de insights
-                    acionáveis.
+    <main>
 
-                </p>
-                <p>
-                    Neste portfólio, você encontrará projetos que refletem minha evolução na área, passando por:
-                </p>
-
-                <ul>
-                    <li>Análise e tratamento de dados</li>
-                    <li>Construção de dashboards</li>
-                    <li>Exploração de dados e geração de insights</li>
-                    <li>Machine Learning</li>
-                </ul>
-                <p>Meu objetivo é atuar na interseção entre dados e negócio, utilizando dados como ferramenta para
-                    melhorar
-                    processos, apoiar decisões e gerar valor.</p>
-        </article>
-    </div>
-    </section>
-    <section id="projetos">
-        <h2>Projetos</h2>
-        <article class="projeto case">
-
-            <h3>Dashboard Analítico — Superstore Sales Performance</h3>
+        <section id="sobre" class="section section-narrow">
+            <p class="section-label">PERFIL PROFISSIONAL</p>
+            <h2>Sobre mim</h2>
 
             <p>
-                Este projeto foi desenvolvido com foco em análise exploratória de dados e visualização estratégica,
-                utilizando o dataset Superstore para identificar padrões de vendas, lucratividade e comportamento
-                de clientes em diferentes regiões e categorias de produtos.
+                Sou farmacêutica bioquímica e doutora em Ciência dos Alimentos pela UFSC,
+                com trajetória profissional construída entre pesquisa científica, análise de dados,
+                gestão de processos, qualidade e liderança.
             </p>
-
-            <h4>📊 Dashboard de Performance Comercial</h4>
 
             <p>
-                O dashboard foi construído no Looker Studio com o objetivo de transformar dados comerciais em
-                informações estratégicas para apoio à tomada de decisão. A análise contempla indicadores de vendas,
-                lucro, descontos, categorias de produtos, segmentos de clientes e métodos de envio.
+                Ao longo de mais de 10 anos, trabalhei com coleta, tratamento e interpretação de dados,
+                análise estatística, indicadores de desempenho (KPIs), planejamento, melhoria de processos
+                e comunicação de resultados para diferentes públicos.
+                Na indústria farmacêutica, evoluí para posições de coordenação e gerência,
+                atuando com equipes, orçamento, produtividade, eficiência operacional
+                e tomada de decisão orientada por dados.
             </p>
 
-            <p class="contexto">
-                Através de gráficos interativos e KPIs dinâmicos, o projeto permite visualizar tendências de
-                faturamento, identificar produtos com baixa margem de lucro e compreender o impacto dos descontos
-                sobre a rentabilidade da empresa.
+            <p>
+                Atualmente direciono essa experiência para
+                <strong>Análise de Dados e Gestão de Projetos em Dados</strong>,
+                ampliando minha atuação com Python, SQL, Power BI, PySpark,
+                Machine Learning e ferramentas de visualização.
+                Meu objetivo é conectar dados, pessoas, processos e necessidades de negócio
+                para apoiar decisões mais claras e soluções de dados que gerem impacto real.
             </p>
 
-            <div class="case-info">
-
-                <p>
-                    <strong>Objetivo:</strong>
-                    Identificar padrões de vendas e lucratividade para apoiar decisões estratégicas.
-                </p>
-
-                <p>
-                    <strong>Ferramentas:</strong>
-                    Looker Studio, Excel e Modelagem de Dados.
-                </p>
-
-                <p>
-                    <strong>Métricas analisadas:</strong>
-                    Receita Total, Lucro, Ticket Médio, Quantidade de Pedidos,
-                    Descontos e Performance por Categoria.
-                </p>
-
+            <div class="highlights">
+                <span>Análise e interpretação de dados</span>
+                <span>KPIs e Business Intelligence</span>
+                <span>Gestão de processos e projetos</span>
+                <span>Estatística aplicada</span>
+                <span>Machine Learning</span>
+                <span>Comunicação com stakeholders</span>
             </div>
-
-            <div class="insights">
-
-                <h4>🔎 Principais Insights</h4>
-
-                <ul>
-                    <li>
-                        Altos descontos impactaram negativamente a margem de lucro em determinadas categorias;
-                    </li>
-
-                    <li>
-                        A modalidade Standard Class concentrou o maior volume de pedidos realizados;
-                    </li>
-
-                    <li>
-                        Algumas regiões apresentaram alto faturamento, porém baixa lucratividade;
-                    </li>
-
-                    <li>
-                        Produtos da categoria Technology demonstraram maior margem de lucro em comparação às demais
-                        categorias;
-                    </li>
-
-                    <li>
-                        A análise revelou oportunidades de otimização comercial e redução de prejuízos operacionais.
-                    </li>
-                </ul>
-
-            </div>
-
-            <div class="dashboard container">
-
-               <iframe width="600" height="450" src="https://datastudio.google.com/embed/reporting/03625357-7198-48d3-a564-a72f82cbde1b/page/OofxF" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
-
-            </div>
-
-            <a class="btn-dashboard" href="https://datastudio.google.com/s/iAv1zTyJ3Tw" target="_blank">
-
-                🔗 Ver dashboard completo
-
-            </a>
-
-        </article>
-
-    </section>
-
-    <section id="habilidades">
-        <h2>Habilidades e tecnologias</h2>
-
-        <table class="tabela">
-
-            <thead>
-                <tr>
-                    <th>Tecnologia</th>
-                    <th>Nível</th>
-                    <th>Descrição</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Excel</td>
-                    <td>Avançado</td>
-                    <td>Análise temporal de dados, tabelas dinâmicas, cálculos percentuais, organização e tratamento de bases de dados, utilização de Power Query
-                    </td>
-                </tr>
-                <tr>
-                    <td>Power BI</td>
-                    <td>Intermediário</td>
-                    <td>Criação de dashboards interativos, modelagem de dados, conexão entre diferentes fontes, medidas em DAX e visualização estratégica de indicadores </td>
-                </tr>
-                <tr>
-                    <td>Python</td>
-                    <td>Intermediário</td>
-                    <td>Desenvolvimento de scripts para coleta, limpeza, tratamento e análise exploratória de dados utilizando Pandas, NumPy, Seaborn e Matplotlib</td>
-                </tr>
-                <tr>
-                    <td>Pandas</td>
-                    <td>Intermediário</td>
-                    <td>Manipulação de dados, limpeza de bases, filtros, agrupamentos e análise exploratória de datasets</td> 
-                </tr>
-                <tr>
-                    <td>Matplotlib</td>
-                    <td>Básico</td>
-                    <td>Criação de gráficos para visualização e interpretação de dados</td>
-                </tr>
-                <tr>
-                    <td>Seaborn</td>
-                    <td>Básico</td>
-                    <td>Desenvolvimento de visualizações estatísticas para análise exploratória de dados</td>
-                </tr>
-                <tr>
-                    <td>SQL</td>
-                    <td>Básico</td>
-                    <td>Capaz de realizar consultas básicas para extração e manipulação de dados em bancos relacionais, utilizando comandos SELECT, WHERE, JOIN e agregações</td>
-                </tr>
-                <tr>
-                    <td>JavaScript</td>
-                    <td>Básico</td>
-                    <td>Criar script que consome uma API pública, organiza os dados em arrays e exibir os resultados
-                        em tabelas HTML</td>
-                </tr>
-                <tr>
-                    <td>HTML</td>
-                    <td>Intermediário</td>
-                    <td>Capaz de construir estruturas de páginas web semânticas e responsivas</td>
-                    </td>
-                <tr>
-                    <td>CSS3</td>
-                    <td>Intermediário</td>
-                    <td>Criar arquivos para estilizar tabelas de dados responsivas e melhorar a vizualizaçaõ de
-                        informações em uma página HTML </td>
-                </tr>
-                <tr>
-                    <td>Git e GitHub</td>
-                    <td>Intermediário</td>
-                    <td>Utilização de controle de versão para gerenciamento de projetos, colaboração e versionamento de código</td>
-                </tr>
-                <tr>
-                    <td>Jupyter Notebook</td>
-                    <td>Intermediário</td>
-                    <td>Desenvolvimento e documentação de análises de dados e projetos em Python</td>
-                </tr>
-                <tr>
-                    <td>Machine Learning</td>
-                    <td>Em aprendizado</td>
-                    <td>Estudos iniciais em modelos preditivos e aplicações de inteligência artificial</td>
-                </tr>
-
-            </tbody>
-
-
-
-        </table>
-
-
-    </section>
-    <footer>
-
-        <section id="contatos">
-            <h2>Contato</h2>
-            <h3>Tem um projeto em mente, entre em contato</h3>
-            <form action="formulario.php" method="post">
-                <label for="nome">Nome: </label>
-                <input type="text" id="nome" name="nome" required><br>
-
-                <label for="email">E-mail: </label>
-                <input type="email" id="email" name="email" required><br>
-
-                <label for="telefone">Telefone: </label>
-                <input type="tel" id="telefone" name="telefone" required><br>
-
-                <label for="assunto">Assunto: </label>
-                <select name="" id="">
-                    <option value="oportunidade">Oportunidade</option>
-                    <option value="duvida">Dúvida</option>
-                    <option value="outro">Outro</option>
-                </select><br>
-                <label for="mensagem">Mensagem: </label>
-                <textarea name="mensagem" id="mensagem" cols="20" rows="5" required></textarea><br>
-
-                <input type="checkbox" id="inscricao" name="inscricao">
-                <label for="inscrição">Deseja receber minha newsletter? Fique por dentro. </label>
-                <br>
-                <input type="submit" value="Enviar mensagem">
-
-            </form>
-            <address>
-                E-mail: <a href="triliciamgomes@gmail.com">triliciamgomes@gmail.com</a> <br>
-                Telefone: <a href="tel:+5548996158485">48 996158485</a> <br>
-            </address>
-            <p>Direitos reservados a Trilicia Gomes</p>
         </section>
-    </footer>
-    </div>
-</body>
 
+        <section id="projetos" class="section">
+            <p class="section-label">PORTFÓLIO</p>
+            <h2>Projetos em destaque</h2>
+
+            <article class="projeto-case">
+
+                <div class="project-header">
+                    <div>
+                        <p class="project-type">
+                            BUSINESS INTELLIGENCE • DATA VISUALIZATION
+                        </p>
+
+                        <h3>
+                            Dashboard Analítico — Superstore Sales Performance
+                        </h3>
+                    </div>
+
+                    <span class="project-badge">Looker Studio</span>
+                </div>
+
+                <p>
+                    Projeto de análise exploratória e visualização estratégica utilizando
+                    o dataset Superstore para identificar padrões de vendas, lucratividade
+                    e comportamento de clientes em diferentes regiões e categorias de produtos.
+                </p>
+
+                <div class="project-grid">
+
+                    <div class="info-card">
+                        <h4>Objetivo</h4>
+                        <p>
+                            Identificar padrões de vendas e lucratividade
+                            para apoiar decisões comerciais.
+                        </p>
+                    </div>
+
+                    <div class="info-card">
+                        <h4>Ferramentas</h4>
+                        <p>
+                            Looker Studio, Excel e modelagem de dados.
+                        </p>
+                    </div>
+
+                    <div class="info-card">
+                        <h4>Indicadores</h4>
+                        <p>
+                            Receita, lucro, ticket médio, pedidos,
+                            descontos e performance por categoria.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="insights">
+                    <h4>Principais análises</h4>
+
+                    <ul>
+                        <li>Impacto de descontos sobre a margem de lucro;</li>
+                        <li>Comparação de faturamento e lucratividade por região;</li>
+                        <li>Performance por categoria, segmento e modalidade de envio;</li>
+                        <li>Identificação de oportunidades de otimização comercial.</li>
+                    </ul>
+                </div>
+
+                <div class="dashboard-container">
+                    <iframe
+                        src="https://datastudio.google.com/embed/reporting/03625357-7198-48d3-a564-a72f82cbde1b/page/OofxF"
+                        title="Dashboard Superstore Sales Performance"
+                        allowfullscreen
+                        sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox">
+                    </iframe>
+                </div>
+
+                <div class="project-actions">
+
+                    <a
+                        class="btn"
+                        href="https://datastudio.google.com/s/iAv1zTyJ3Tw"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        Ver dashboard completo
+                    </a>
+
+                    <a
+                        class="btn outline"
+                        href="https://github.com/Trilicia"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        Ver projetos no GitHub
+                    </a>
+
+                </div>
+
+            </article>
+        </section>
+
+        <section id="habilidades" class="section">
+
+            <p class="section-label">COMPETÊNCIAS</p>
+            <h2>Habilidades e tecnologias</h2>
+
+            <p class="section-intro">
+                Organizei as competências por aplicação profissional,
+                separando ferramentas de análise das habilidades relacionadas
+                à gestão de dados, projetos, processos e tomada de decisão.
+            </p>
+
+            <div class="skills-grid">
+
+                <article class="skill-card">
+                    <h3>Dados & Analytics</h3>
+
+                    <ul>
+                        <li>Análise Exploratória de Dados (EDA)</li>
+                        <li>Data Cleaning e preparação de bases</li>
+                        <li>Data Quality e validação de informações</li>
+                        <li>Visualização de dados e construção de indicadores</li>
+                        <li>Business Intelligence e análise de performance</li>
+                        <li>Tomada de decisão orientada por dados</li>
+                    </ul>
+                </article>
+
+                <article class="skill-card">
+                    <h3>Estatística & Machine Learning</h3>
+
+                    <ul>
+                        <li>Estatística descritiva</li>
+                        <li>ANOVA e teste de Tukey</li>
+                        <li>Correlação de Pearson</li>
+                        <li>Análise multivariada</li>
+                        <li>Análise de Componentes Principais (PCA)</li>
+                        <li>Fundamentos e aplicação de modelos preditivos</li>
+                    </ul>
+                </article>
+
+                <article class="skill-card">
+                    <h3>Gestão de Projetos & Processos</h3>
+
+                    <ul>
+                        <li>Planejamento e acompanhamento de atividades</li>
+                        <li>Gestão de indicadores (KPIs)</li>
+                        <li>Mapeamento e melhoria de processos</li>
+                        <li>Priorização e resolução estruturada de problemas</li>
+                        <li>Gestão de equipes e acompanhamento de resultados</li>
+                        <li>Comunicação de resultados e alinhamento com stakeholders</li>
+                    </ul>
+                </article>
+
+            </div>
+
+            <div class="table-wrapper">
+
+                <table class="tabela">
+
+                    <thead>
+                        <tr>
+                            <th>Ferramenta / Tecnologia</th>
+                            <th>Aplicação</th>
+                            <th>Uso no contexto de dados</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td><strong>Python</strong></td>
+                            <td>Análise de Dados</td>
+                            <td>
+                                Limpeza, transformação, análise exploratória,
+                                automação de análises e desenvolvimento de modelos.
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>SQL</strong></td>
+                            <td>Banco de Dados</td>
+                            <td>
+                                Consultas, filtros, JOINs, agregações
+                                e extração de dados em bases relacionais.
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>PySpark</strong></td>
+                            <td>Processamento de Dados</td>
+                            <td>
+                                Manipulação e transformação de dados utilizando
+                                DataFrames e operações distribuídas.
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>Power BI</strong></td>
+                            <td>Business Intelligence</td>
+                            <td>
+                                Dashboards, modelagem de dados,
+                                medidas em DAX e acompanhamento de indicadores.
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>Looker Studio</strong></td>
+                            <td>Data Visualization</td>
+                            <td>
+                                Construção de dashboards interativos
+                                e visualização estratégica de KPIs.
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>Excel / Power Query</strong></td>
+                            <td>Análise & Preparação</td>
+                            <td>
+                                Tratamento de bases, tabelas dinâmicas,
+                                análises, cálculos e preparação de dados.
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>Pandas & NumPy</strong></td>
+                            <td>Data Wrangling</td>
+                            <td>
+                                Manipulação, limpeza, transformação,
+                                agrupamentos e análise de datasets.
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>Scikit-learn</strong></td>
+                            <td>Machine Learning</td>
+                            <td>
+                                Construção e avaliação de modelos preditivos
+                                em projetos de aprendizagem supervisionada.
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>Matplotlib & Seaborn</strong></td>
+                            <td>Visualização</td>
+                            <td>
+                                Criação de gráficos e visualizações
+                                para análise exploratória e comunicação de resultados.
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>Git & GitHub</strong></td>
+                            <td>Versionamento</td>
+                            <td>
+                                Controle de versão, organização de projetos,
+                                documentação e publicação do portfólio.
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>Jupyter Notebook & VS Code</strong></td>
+                            <td>Desenvolvimento</td>
+                            <td>
+                                Desenvolvimento, documentação
+                                e execução de análises e projetos em Python.
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>Microsoft Azure</strong></td>
+                            <td>Cloud & IA</td>
+                            <td>
+                                Experiência prática com serviços de IA para linguagem,
+                                análise de sentimentos e reconhecimento de fala.
+                            </td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer id="contatos">
+
+        <div class="footer-content">
+
+            <p class="section-label">CONTATO</p>
+
+            <h2>Vamos conversar?</h2>
+
+            <p>
+                Estou aberta a oportunidades e projetos em
+                Análise de Dados e Gestão de Projetos em Dados.
+            </p>
+
+            <div class="contact-links">
+
+                <a href="mailto:triliciamgomes@gmail.com">
+                    triliciamgomes@gmail.com
+                </a>
+
+                <a
+                    href="https://github.com/Trilicia"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    GitHub
+                </a>
+
+                <a
+                    href="https://www.linkedin.com/in/trilicia-gomes-8606451a7/"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    LinkedIn
+                </a>
+
+            </div>
+
+            <p class="copyright">
+                © 2026 Trilicia Gomes. Todos os direitos reservados.
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
 </html>
