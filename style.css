@@ -303,6 +303,13 @@ strong {
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
 }
 
+.projeto-destaque {
+    background:
+        linear-gradient(135deg, rgba(212, 175, 55, 0.08), transparent 45%),
+        #181818;
+    border-color: #4a4020;
+}
+
 .project-header {
     display: flex;
     align-items: flex-start;
@@ -431,6 +438,23 @@ strong {
 
 .project-actions {
     margin-top: 25px;
+}
+
+.project-note {
+    margin: 25px 0;
+    padding: 16px 18px;
+
+    background-color: rgba(212, 175, 55, 0.07);
+    border-left: 3px solid #d4af37;
+    border-radius: 6px;
+
+    color: #bdbdbd;
+    font-size: 14px;
+}
+
+.dashboard-portfolio {
+    border: 1px solid #303030;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.28);
 }
 
 
